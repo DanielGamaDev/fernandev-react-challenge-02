@@ -13,7 +13,7 @@ import { useState } from 'react';
 // todo - Desabilite o botão de Login equanto você está executando o login.
 // todo - Mostre uma mensagem de erro de login() caso o Login falhe. A mensagem deve ser limpa a cada nova tentativa de Login.
 // todo - Mostre um alerta caso o login seja efetuado com sucesso (javascript alert). Investigue a função login() para entender como ter sucesso na requisição.
-
+// Testando commit
 export default function LoginForm() {
   return (
     <div className='wrapper'>
@@ -28,7 +28,7 @@ export default function LoginForm() {
         <div className='row'>
           <label htmlFor={'password'}>Password</label>
           <input id={'password'} type={'password'} />
-        </div>
+        </div> 
 
         <div className='button'>
           <button>Login</button>
